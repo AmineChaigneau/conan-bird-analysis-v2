@@ -1,0 +1,35 @@
+# ── macOS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Microsoft Office temp files ────────────────────────────────────────────────
+~$*
+
+# ── R workspace / history ──────────────────────────────────────────────────────
+.RData
+.RDataTmp
+*.RData
+*.Rproj.RData
+.Rhistory
+
+# ── RStudio project user state ─────────────────────────────────────────────────
+.Rproj.user/
+
+# ── Old / deprecated scripts ───────────────────────────────────────────────────
+old/
+
+# ── Raw data (large JSON dumps, ~74 MB) ────────────────────────────────────────
+data/raw/
+
+# ── Heavy processed outputs (>10 MB) ──────────────────────────────────────────
+# trajectoires_processed.csv is 265 MB — regenerate from raw + scripts
+output/trajectoires_processed.csv
+
+# ── Large fitted model objects (.rds) ─────────────────────────────────────────
+# Regenerate by running the model scripts.
+# Small summary CSVs and PNGs in model_outputs/ are kept.
+model_outputs/*.rds
+
+# ── Archives ──────────────────────────────────────────────────────────────────
+*.zip
